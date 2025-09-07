@@ -1,0 +1,34 @@
+{
+	"name": "eleventy-web-starter",
+	"version": "2.0.1",
+	"description": "Eleventy Web Starter is a lightweight Eleventy boilerplate utilising, ESBuild Tailwind and PostCSS",
+	"scripts": {
+		"clean": "del dist",
+		"dev:postcss": "postcss src/_assets/css/*.css -o src/static/build/styles.min.css --watch --verbose",
+		"dev:scripts": "esbuild src/_assets/scripts/scripts.js --bundle --watch --outfile=src/static/build/scripts.min.js",
+		"dev:11ty": "eleventy --serve --watch",
+		"build:postcss": "NODE_ENV=production postcss src/_assets/css/styles.css -o src/_includes/styles.min.css",
+		"build:11ty": "ELEVENTY_ENV=production eleventy",
+		"build:scripts": "esbuild src/_assets/scripts/scripts.js --bundle --minify --outfile=dist/static/build/scripts.min.js",
+		"dev": "run-p dev:*",
+		"build": "run-s clean build:*"
+	},
+	"author": "Chris Collins",
+	"license": "ISC",
+	"devDependencies": {
+		"@11ty/eleventy": "3.0.0",
+		"@tailwindcss/postcss": "^4.0.17",
+		"autoprefixer": "^10.4.21",
+		"cssnano": "^7.0.6",
+		"del-cli": "^6.0.0",
+		"esbuild": "^0.25.2",
+		"htmlnano": "^2.1.1",
+		"luxon": "^3.6.0",
+		"npm-run-all": "^4.1.5",
+		"postcss": "^8.5.3",
+		"postcss-cli": "^11.0.1",
+		"postcss-import": "^16.1.0",
+		"tailwindcss": "^4.0.17",
+		"terser": "^5.39.0"
+	}
+}
