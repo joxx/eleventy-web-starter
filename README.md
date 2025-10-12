@@ -87,7 +87,7 @@ eleventy-web-starter/
 │   ├── _data/           # Data files in JSON or JS format
 │   ├── _includes/       # Reusable components
 │   ├── _layouts/        # Reusable layouts
-│   ├── _assets/         # Assets - JS, CSS (Tailwind)
+│   ├── assets/         # Assets - JS, CSS (Tailwind)
 ├── .eleventy.js         # Eleventy configuration file
 ├── package.json         # Node dependencies and scripts
 ├── postcss.config.js    # PostCSS Config
