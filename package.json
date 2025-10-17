@@ -4,7 +4,7 @@
 	"description": "Eleventy Web Starter is a lightweight Eleventy boilerplate utilising, ESBuild Tailwind and PostCSS",
 	"scripts": {
 		"clean": "del dist",
-		"dev:postcss": "postcss src/assets/css/*.css -o dist/assets/styles.min.css --watch --verbose",
+		"dev:postcss": "postcss src/assets/css/*.css -o dist/assets/css/styles.min.css --watch --verbose",
 		"dev:scripts": "esbuild src/assets/js/scripts.js --bundle --watch --outfile=dist/assets/js/scripts.min.js",
 		"dev:11ty": "eleventy --serve --watch",
 		"build:postcss": "NODE_ENV=production postcss src/assets/css/*.css -o src/_includes/styles.min.css",
