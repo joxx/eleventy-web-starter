@@ -13,6 +13,17 @@
 		"dev": "run-p dev:*",
 		"build": "run-s clean build:*"
 	},
+	"netlify": {
+		"plugins": [
+			{
+				"package": "netlify-plugin-a11y",
+				"inputs": {
+					"timeout": 60000,
+					"checkPuppeteer": false
+				}
+			}
+		]
+	},
 	"author": "Chris Collins",
 	"license": "ISC",
 	"devDependencies": {
