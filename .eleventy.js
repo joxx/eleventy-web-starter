@@ -5,7 +5,7 @@ const htmlSave = require("htmlnano").presets.safe;
 
 module.exports = function (eleventyConfig) {
 	// Folders to copy to build dir
-	// eleventyConfig.addPassthroughCopy("src/static");
+	eleventyConfig.addPassthroughCopy("src/assets/fonts");
 
 	// Filter to parse dates
 	eleventyConfig.addFilter("htmlDateString", function (dateObj) {
