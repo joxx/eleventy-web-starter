@@ -1,13 +1,35 @@
-/* 
-  Global styles 
+/*
+  Global styles
 
-  Low-specificity, global styles that apply to the whole 
+  Low-specificity, global styles that apply to the whole
   project: https://cube.fyi/css.html
 */
 body {
-  background: var(--color-light);
-  color: var(--color-dark);
-  font-size: var(--size-step-0);
-  font-family: var(--font-base);
-  line-height: var(--leading-standard);
+	background: var(--color-light);
+	color: var(--color-dark);
+	font-size: var(--size-step-0);
+	font-family: var(--font-base);
+	line-height: var(--leading-standard);
+}
+
+/* Base typesetting */
+h1,
+h2,
+h3 {
+	line-height: 1;
+	letter-spacing: var(--tracking-s);
+	font-family: var(--font-base);
+}
+
+h1 {
+	font-size: var(--size-step-5);
+}
+
+h2 {
+	font-size: var(--size-step-4);
+}
+
+h3 {
+	font-size: var(--size-step-3);
+	font-family: var(--font-display);
 }

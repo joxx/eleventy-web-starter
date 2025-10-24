@@ -6,7 +6,7 @@
 			"name": "Base",
 			"description": "System fonts for body copy and globally set text.",
 			"value": [
-				"Nutica",
+				"Mona Sans",
 				"system-ui",
 				"-apple-system",
 				"BlinkMacSystemFont",
