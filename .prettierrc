@@ -1,0 +1,49 @@
+{
+	"semi": true,
+	"trailingComma": "es5",
+	"singleQuote": false,
+	"printWidth": 80,
+	"tabWidth": 4,
+	"useTabs": true,
+	"endOfLine": "lf",
+	"bracketSpacing": true,
+	"arrowParens": "avoid",
+	"overrides": [
+		{
+			"files": "*.njk",
+			"options": {
+				"parser": "jinja-template",
+				"printWidth": 120,
+				"tabWidth": 2,
+				"useTabs": false
+			}
+		},
+		{
+			"files": "*.html",
+			"options": {
+				"parser": "html",
+				"printWidth": 120,
+				"tabWidth": 2,
+				"useTabs": false
+			}
+		},
+		{
+			"files": "*.css",
+			"options": {
+				"printWidth": 100,
+				"tabWidth": 2,
+				"useTabs": false
+			}
+		},
+		{
+			"files": "*.md",
+			"options": {
+				"printWidth": 80,
+				"tabWidth": 2,
+				"useTabs": false,
+				"proseWrap": "always"
+			}
+		}
+	],
+	"plugins": ["prettier-plugin-jinja-template"]
+}

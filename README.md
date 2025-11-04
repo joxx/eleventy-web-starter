@@ -1,6 +1,9 @@
 # Eleventy Web Starter
 
-An opinionated starter template for building static websites using [Eleventy](https://www.11ty.dev/). This starter kit is designed to help you quickly set up a modern, fast, and efficient static site with best practices for templating, styling, and performance optimisation.
+An opinionated starter template for building static websites using
+[Eleventy](https://www.11ty.dev/). This starter kit is designed to help you
+quickly set up a modern, fast, and efficient static site with best practices for
+templating, styling, and performance optimisation.
 
 ## ✨ Features
 
@@ -11,7 +14,8 @@ An opinionated starter template for building static websites using [Eleventy](ht
 - **Image Optimisation** using Eleventy plugins
 - **Live Reload** for rapid development
 - **SEO Optimizations** and social sharing metadata
-- Pre-configured for easy **deployment to Netlify**, **Vercel**, or **GitHub Pages**
+- Pre-configured for easy **deployment to Netlify**, **Vercel**, or **GitHub
+  Pages**
 
 ## 🛠️ Tech Stack
 
@@ -102,7 +106,8 @@ eleventy-web-starter/
 
 ## 🌐 Deployment
 
-This starter is optimised for deployment on popular static site hosts. Follow the instructions below for different providers:
+This starter is optimised for deployment on popular static site hosts. Follow
+the instructions below for different providers:
 
 ### Netlify
 
@@ -111,13 +116,13 @@ This starter is optimised for deployment on popular static site hosts. Follow th
    [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/chrissy-dev/eleventy-web-starter)
 
 2. Configure the build settings:
-
    - **Build Command**: `npm run build`
    - **Publish Directory**: `dist`
 
 ### Vercel
 
-1. Install the [Vercel CLI](https://vercel.com/docs/cli) if not already installed:
+1. Install the [Vercel CLI](https://vercel.com/docs/cli) if not already
+   installed:
 
    ```bash
    npm install -g vercel
@@ -133,7 +138,8 @@ This starter is optimised for deployment on popular static site hosts. Follow th
 
 ## 🤝 Contributing
 
-Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/chrissy-dev/eleventy-web-starter/issues).
+Contributions, issues, and feature requests are welcome! Feel free to check the
+[issues page](https://github.com/chrissy-dev/eleventy-web-starter/issues).
 
 To contribute:
 

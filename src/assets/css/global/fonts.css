@@ -1,11 +1,12 @@
 /* @font-face here */
 
 @font-face {
-	ascent-override: 91%;
-	font-display: swap;
-	font-family: "Mona Sans";
-	font-stretch: 75% 125%;
-	font-weight: 200 900;
-	src: url(/assets/fonts/MonaSans.woff2) format("woff2 supports variations"),
-		url(/assets/fonts/MonaSans.woff2) format("woff2-variations");
+  ascent-override: 91%;
+  font-display: swap;
+  font-family: "Mona Sans";
+  font-stretch: 75% 125%;
+  font-weight: 200 900;
+  src:
+    url(/assets/fonts/MonaSans.woff2) format("woff2 supports variations"),
+    url(/assets/fonts/MonaSans.woff2) format("woff2-variations");
 }

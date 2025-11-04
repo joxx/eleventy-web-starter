@@ -105,7 +105,7 @@ module.exports = {
 					return;
 				}
 
-				Object.keys(group).forEach((key) => {
+				Object.keys(group).forEach(key => {
 					result += `--${prefix}-${key}: ${group[key]};`;
 				});
 			});
@@ -119,8 +119,16 @@ module.exports = {
 		plugin(function ({ addUtilities, config }) {
 			const currentConfig = config();
 			const customUtilities = [
-				{ key: "spacing", prefix: "flow-space", property: "--flow-space" },
-				{ key: "spacing", prefix: "region-space", property: "--region-space" },
+				{
+					key: "spacing",
+					prefix: "flow-space",
+					property: "--flow-space",
+				},
+				{
+					key: "spacing",
+					prefix: "region-space",
+					property: "--region-space",
+				},
 				{ key: "spacing", prefix: "gutter", property: "--gutter" },
 			];
 
@@ -131,7 +139,7 @@ module.exports = {
 					return;
 				}
 
-				Object.keys(group).forEach((key) => {
+				Object.keys(group).forEach(key => {
 					addUtilities({
 						[`.${prefix}-${key}`]: postcssJs.objectify(
 							postcss.parse(`${property}: ${group[key]}`)
