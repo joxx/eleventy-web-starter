@@ -1,4 +1,4 @@
-# Eleventy Web Starter
+# Eleventy Starter
 
 An opinionated starter template for building static websites using
 [Eleventy](https://www.11ty.dev/). This starter kit is designed to help you
@@ -9,7 +9,6 @@ templating, styling, and performance optimisation.
 
 - **Eleventy (11ty)** for static site generation
 - **Nunjucks** templating language and **Markdown** support
-- **SCSS** for modular and maintainable styling
 - **ESBuild** for fast and efficient bundling of JavaScript
 - **Image Optimisation** using Eleventy plugins
 - **Live Reload** for rapid development
@@ -21,7 +20,7 @@ templating, styling, and performance optimisation.
 
 - **Static Site Generator**: [Eleventy (11ty)](https://www.11ty.dev/)
 - **Templating Languages**: Nunjucks, Liquid, Markdown
-- **Styling**: SCSS, PostCSS
+- **Styling**: PostCSS
 - **JavaScript**: ES6 Modules
 - **Build Tool**: ESBuild
 - **Deployment**: Netlify, Vercel, GitHub Pages
